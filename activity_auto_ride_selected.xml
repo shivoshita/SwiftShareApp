@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#130139"
+    android:padding="16dp">
+
+    <!-- Text - Ride Selection Heading -->
+    <TextView
+        android:id="@+id/ride_selected_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto selected with the following details"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/ride_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_auto"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Auto Image" />
+
+    <!-- TextView for Driver Name -->
+    <TextView
+        android:id="@+id/driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Name: Raghavendra"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- TextView for Driver Phone -->
+    <TextView
+        android:id="@+id/driver_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +91 9876543210"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- TextView for Plate Number -->
+    <TextView
+        android:id="@+id/plate_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plate Number: KA 56B 3464"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- TextView for Distance -->
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: 500 m"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- TextView for Price -->
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: INR 300"
+    android:textSize="16sp"
+    android:textColor="#FFFFFF"
+    android:gravity="center"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Add this Button to your activity_auto_ride_selected.xml layout -->
+    <Button
+        android:id="@+id/select_passengers_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Passengers"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

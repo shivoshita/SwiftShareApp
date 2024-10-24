@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#130139"
+    tools:context=".HomeActivity">
+
+<ImageView
+android:id="@+id/logo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="50dp"
+    android:contentDescription="image1"
+    android:src="@drawable/your_logo"
+    tools:ignore="HardcodedText" />
+
+<EditText
+android:id="@+id/email"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/logo"
+android:layout_marginTop="30dp"
+    android:autofillHints="username"
+    android:hint="Username"
+    android:inputType="textEmailAddress"
+    android:textColor="@color/black"
+    android:padding="10dp"
+android:background="@drawable/your_edittext_background"
+    tools:ignore="HardcodedText" />
+
+<EditText
+android:id="@+id/password"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/email"
+android:layout_marginTop="10dp"
+    android:textColor="@color/black"
+    android:autofillHints="password"
+    android:hint="Password"
+    android:inputType="textVisiblePassword"
+android:padding="10dp"
+android:background="@drawable/your_edittext_background"
+    tools:ignore="HardcodedText" />
+
+<Button
+android:id="@+id/login_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/password"
+android:layout_marginTop="20dp"
+
+android:text="Login"
+android:background="@color/colorPrimary"
+android:textColor="@android:color/black"
+    tools:ignore="HardcodedText" />
+
+<TextView
+android:id="@+id/register_prompt"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/login_button"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="20dp"
+android:text="Don't have an account? Register here."
+android:textColor="@android:color/darker_gray"
+    tools:ignore="HardcodedText" />
+
+<Button
+android:id="@+id/register_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/register_prompt"
+android:layout_marginTop="50dp"
+android:text="Register"
+android:background="@color/colorPrimary"
+android:textColor="@android:color/black"
+    tools:ignore="HardcodedText" />
+
+</RelativeLayout>

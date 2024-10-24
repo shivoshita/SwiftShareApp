@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SwiftShareApp</string>
+    <string-array name="ride_options">
+        <item>Cab</item>
+        <item>Auto</item>
+    </string-array>
+    <string name="driver_name_template">Driver Name: %1$s</string>
+    <string name="phone_template">Phone: %1$s</string>
+    <string name="plate_number_template">Plate Number: %1$s</string>
+    <string name="distance_template">Distance: %1$s</string>
+    <string name="price_template">Price: %1$s</string>
+    <string name="passenger_name_template">Passenger: %1$s</string> <!-- New -->
+    <string name="vehicle_type_template">Vehicle Type: %1$s</string>
+    <string name="search_rides">Search Rides</string>
+    <string name="auto_ride_options_near_you">Auto Ride Options near you</string>
+    <string name="_450_m">450 m</string>
+    <string name="price_inr_150">Price: INR 150</string>
+    <string name="select_ride">Select Ride</string>
+    <string name="cab_ride_options_near_you">Cab Ride Options near you</string> <!-- New -->
+</resources>

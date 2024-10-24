@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#130139"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title TextView for Auto options -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_ride_options_near_you"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold" />
+
+    <!-- Inner GridLayout to hold the auto rides -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:gravity="center">
+
+        <!-- Row 1, Column 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_auto" />
+            <TextView
+                android:id="@+id/plate_number_auto_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KA 10A 5623"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_name_auto_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ravi Kumar"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_phone_auto_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9876543210"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/distance_auto_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_450_m"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <!-- Price TextView -->
+            <TextView
+                android:id="@+id/price_auto_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_inr_150"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/select_auto_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Ride"
+                android:backgroundTint="#E45A04"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 1, Column 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_auto" />
+            <TextView
+                android:id="@+id/plate_number_auto_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KA 03B 9345"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_name_auto_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sarojini Devi"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_phone_auto_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 8765432109"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/distance_auto_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300 m"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <!-- Price TextView -->
+            <TextView
+                android:id="@+id/price_auto_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: INR 120"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/select_auto_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Ride"
+                android:backgroundTint="#E45A04"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 2, Column 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_auto" />
+            <TextView
+                android:id="@+id/plate_number_auto_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KA 14C 4587"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_name_auto_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mohan Singh"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_phone_auto_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9324516789"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/distance_auto_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="600 m"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <!-- Price TextView -->
+            <TextView
+                android:id="@+id/price_auto_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: INR 200"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/select_auto_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Ride"
+                android:backgroundTint="#E45A04"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 2, Column 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_auto" />
+            <TextView
+                android:id="@+id/plate_number_auto_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KA 05D 7382"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_name_auto_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nashit Alam"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_phone_auto_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9345678901"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/distance_auto_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="700 m"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <!-- Price TextView -->
+            <TextView
+                android:id="@+id/price_auto_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: INR 250"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/select_auto_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Ride"
+                android:backgroundTint="#E45A04"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </GridLayout>
+</LinearLayout>

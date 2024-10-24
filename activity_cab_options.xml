@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#130139"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title TextView centered at the top -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cab_ride_options_near_you"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold" />
+
+    <!-- Inner GridLayout to hold the rides -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:gravity="center">
+
+        <!-- Row 1, Column 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_car" />
+            <TextView
+                android:id="@+id/plate_number_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KA 56B 3464"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver Name"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_phone_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 8746437455"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/distance_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 m"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/price_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INR 150"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/select_ride_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Ride"
+                android:backgroundTint="#E45A04"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 1, Column 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_car" />
+            <TextView
+                android:id="@+id/plate_number_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KA 45M 1234"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_name_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver Name"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_phone_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9324516789"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/distance_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300 m"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/price_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INR 120"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/select_ride_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Ride"
+                android:backgroundTint="#E45A04"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 2, Column 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_car" />
+            <TextView
+                android:id="@+id/plate_number_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KA 62M 1893"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_name_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver Name"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_phone_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9487346712"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/distance_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="450 m"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/price_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INR 180"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/select_ride_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Ride"
+                android:backgroundTint="#E45A04"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 2, Column 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_car" />
+            <TextView
+                android:id="@+id/plate_number_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KA 72B 5643"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_name_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver Name"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/driver_phone_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9876543210"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/distance_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="600 m"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/price_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INR 200"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/select_ride_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_ride"
+                android:backgroundTint="#E45A04"
+                android:textColor="#FFFFFFFF" />
+        </LinearLayout>
+
+    </GridLayout>
+</LinearLayout>
